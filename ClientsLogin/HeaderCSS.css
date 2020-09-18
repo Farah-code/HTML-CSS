@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Jul-2020, 22:19:13
+    Author     : farah
+*/
+
+ *
+ {
+     margin: 0; 
+     padding: 0;
+ }
+ 
+ .emailIMG
+ {
+     float:  right;
+     width: 45%;
+     font-size: 25px;
+     font-family: 'Luckiest Guy';
+ }
+ 
+
+nav
+{
+    width: 100%; 
+    height: 60px;
+    background-color: black; 
+    color: whitesmoke;
+}
+
+nav p 
+{
+   font-family: 'Luckiest Guy';
+    color: #222; 
+    font-size: 25px; 
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px; 
+}
+
+nav ul 
+{
+    float: left; 
+}
+
+nav ul li 
+{
+    float: left;
+    list-style: none; 
+    position: relative;
+}
+
+nav ul li a
+{
+    display: block;
+  font-family: 'Luckiest Guy';
+   color: white; 
+   font-size: 25px; 
+   padding: 22px 14px;
+   text-decoration: none;
+}
+nav ul li a:hover
+{
+    background-color: #413b3b;
+}
+
+nav ul li:hover ul 
+{
+  
+  display: block;
+
+}
+nav ul li ul
+{
+  display: none;
+  position: absolute;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px; 
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+
+nav ul li ul li a 
+{
+    width: 300px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a:hover
+{
+    padding: 8px 14px;
+    background-color: #413b3b;
+}
+
+
+ #dropmanue 
+{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    
+}
+         #dropmanue ul
+       {
+          list-style: none; 
+          margin: 0;
+          padding: 0; 
+          overflow: hidden; 
+          
+       }
+       
+       #dropmanue ul li
+       {
+        background-color: black; 
+        width: 250px; 
+        border: 3px solid black; 
+        height: 50px; 
+        line-height: 50px;
+        text-align: center;
+        float: left;
+        color: white;
+        opacity: .8; 
+        position: relative;
+           
+           
+       }
+       
+       #dropmanue ul li a 
+       {
+            color: white; 
+            font: Courier;
+            font-size: 24px;
+            font-style: inherit;
+            opacity: .8; 
+            width: 250px;
+           
+        
+           
+       }
+       
+       #dropmanue ul li:hover
+       {
+              background-color: #818181; 
+              width: 250px; 
+             padding: 0px; 
+             margin: 0px;
+             color: whitesmoke;
+
+       }
+   
+       #dropmanue ul  ul
+       {
+           display: none;
+           background-color: black;
+             width: 270px;
+       }
+       
+        #dropmanue ul li:hover > ul
+        {
+            display: block;
+            background-color:  #818181;
+              width: 270px;
+              color: whitesmoke;
+        }
+          
+        #dropmanue ul ul ul 
+        {
+            margin-left: 50px;
+            top: 0px;
+            position: absolute;
+        }
+        
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 60px;
+   font-family: 'Luckiest Guy';
+   color: whitesmoke;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+   font-family: 'Luckiest Guy';
+  
+}
+
+.sidenav a:hover 
+{
+  color: black;
+   font-family: 'Luckiest Guy';
+}
+
+.sidenav .closebtn 
+{
+  position: initial;
+  color: whitesmoke;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  font-family: 'Luckiest Guy';
+  
+  
+}
