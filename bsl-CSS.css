@@ -1,0 +1,587 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-Apr-2020, 23:41:14
+    Author     : Farah Aljoubori
+*/
+
+#navigationMenu 
+{
+    background-color: #003366;
+    overflow: hidden;
+    
+}
+
+#navigationMenu ul 
+{
+    list-style: none;
+}
+
+#navigationMenu ul li
+{
+    background-color: #003366; 
+    width: 150px; 
+    border: 1px solid #003366; 
+    height: 25px; 
+    line-height: 25px;
+    text-align: center;
+    float: right;
+    color: white;
+    opacity: .8; 
+    position: relative;
+    
+}
+
+#navigationMenu ul li a 
+{
+    color: white; 
+    font: Courier;
+    font-size: 16px;
+    font-style: inherit;
+    opacity: .8; 
+    width: 150px; 
+}
+
+#navigationMenu ul li:hover 
+{
+   background-color: activecaption; 
+   width: 150px; 
+   padding: 0px; 
+   margin: 0px; 
+   
+}
+
+#navigationMenu ul ul
+{
+    display: none; 
+    background-color: #003366;
+    width: 150px; 
+}
+
+#navigationMenu ul li:hover > ul 
+{
+    display: block;
+    background-color: activecaption;
+    width: 150px; 
+}
+
+#navigationMenu ul ul ul 
+{
+    margin-left: 25px; 
+    top: 0px;
+    position: absolute;
+}
+
+h1
+{
+  font:  Courier;
+  color: #003366;
+ 
+}
+
+.Sign1 img
+{
+   float: right;
+}
+ hr
+{
+    border-top: 10px solid #003366;
+    width: 100%;
+    
+}
+
+h2
+{
+  font:  Courier New;
+  color: #003366;
+ 
+}
+
+.Sign2.P1
+{
+ font-family:  Courier New; 
+ 
+}
+.Sign3
+{
+    font-family:  Courier New;
+    
+    
+}
+
+.Sign3 p
+{
+   font-family:  Courier New;
+   display: inline
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  float: right;
+  vertical-align: middle;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .radio
+{
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  border: none; 
+}
+
+.container .radio:hover
+{
+ background-color: black;
+}
+
+.container label
+{
+  position: absolute;
+  top: 7%;
+  left: 8%;
+  border: none; 
+  font-size: 14px;
+  
+}
+
+.container .radio:hover
+{
+ background-color: black;
+}
+
+.container .img1 {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img1:hover {
+ background-image: url("1.jpg");
+  
+}
+.container .img1 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+.container .img2 {
+ position: absolute;
+  top: 20%;
+  left: 25%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img2:hover {
+  background-image: url("2.jpg");
+}
+
+.container .img2 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+.container .img3 {
+ position: absolute;
+  top: 20%;
+  left: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img3:hover 
+{
+ background-image: url("3.jpg");
+ 
+}
+
+.container .img3 img
+{
+    width: 75px;
+    height: 75px; 
+}
+
+.container .img4 
+{
+ position: absolute;
+  top: 20%;
+  left: 75%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img4:hover 
+{
+  background-image: url("4.jpg");
+}
+
+.container .img4 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+.container .img5 {
+  position: absolute;
+  top: 45%;
+  left: 3%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img5:hover {
+  background-image: url("5.jpg");
+}
+.container .img5 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img6 {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img6:hover {
+  background-image: url("6.jpg");
+}
+.container .img6 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img7 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img7:hover {
+  background-image: url("7.jpg");
+}
+
+.container .img7 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img8 {
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img8:hover {
+ background-image: url("8.jpg");
+}
+
+.container .img8 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img9 
+{
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img9:hover {
+  background-image: url("9.jpg");
+}
+
+.container .img9 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img10 
+{
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img10:hover 
+{
+  background-image: url("10.jpg");
+}
+
+.container .img10 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+
+.container .img11 
+{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img11:hover {
+  background-image: url("11.jpg");
+}
+
+.container .img11 img
+{
+    width: 75px;
+    height: 75px;
+   
+}
+.container .img12 
+{
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .img12:hover 
+{
+  background-image: url("12.jpg");
+}
+
+.container .img12 img
+{
+    width: 75px;
+    height: 75px;
+}
+
+.Sign4
+{
+    font-family: Courier New;
+}
+
+.Sign4 .Sign4-A
+{
+    border: 2px solid #003366;
+}
+
+.Sign4 .Sign4-A h6
+{
+  font-family: Courier New;
+  color: #003366; 
+}
+
+.Sign4 .Sign4.hr
+{
+    border: 2px #003366;
+    width: 100%; 
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  float: right;
+  vertical-align: middle;
+}
+.container1 iframe {
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  cursor: pointer;
+  border: none;
+}
+
+.container1 iframe:hover 
+{
+ background-image: url("https://www.youtube.com/iframe_api");
+  
+}
+
+.container1 label
+{
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  border: none; 
+  font-size: 14px;
+  
+}
+.Sign4-B 
+{
+   text-align: left; 
+}
+.Sign6 div
+{
+  width: 100px;
+  padding: 5px;
+  height: 120px;
+  border: 1px solid black;
+  margin: 0;
+  float: left;
+   
+}
+.Sign6 div img
+{
+  width: 100px;  
+}
+.Sign6 div p
+{
+   background-color: #003366;
+   color: white;
+   text-align: center;
+   width: 100px;
+}
+
+.Sign7 div
+{
+  width: 100px;
+  padding: 5px;
+  height: 140px;
+  border: 1px solid black;
+  margin: 0;
+  float: left; 
+   
+}
+.Sign7 div img
+{
+  width: 100px; 
+  height: 100px;
+}
+.Sign7 div p
+{
+   background-color: #003366;
+   color: white;
+   text-align: center;
+   width: 100px;
+}
+
+.Sign8 
+{
+  border: 1px solid black;
+}
+
+.Sign8 h4
+{
+   width:80px;
+    margin-top:-10px;
+    margin-left:15px;
+    background:white;
+}
+
+.Sign8 input
+{
+   margin-top: 10px;
+   margin-left:15px;  
+   width: 50%
+}
+
+.Sign8 p
+{
+    margin-top:13px;
+    margin-left:15px; 
+}
+
+.Sign9 
+{
+  margin-bottom:40px;
+  margin-left:3px;
+  border: 1px solid black;
+}
+
+.Sign9 h4
+{
+   width:100px;
+    margin-top:-10px;
+    margin-left:15px;
+    background:white;
+}
+
+.Sign9 input
+{
+ margin-left: 0px;  
+}
+
+.Sign9 label
+{
+  margin-left: 1px;  
+}
+
+.Sign9 p
+{
+    margin-top:13px;
+    margin-left:15px; 
+}
+
+ .Sign9-A img
+{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.Sign9 select option
+{
+  float: left; 
+  margin-bottom: 25px;
+  margin-left:10px;
+}
+
+ .Sign9 img
+{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.Sign10 
+{
+  margin-bottom:40px;
+  margin-left:3px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.Sign10 h4
+{
+   width:150px;
+    margin-top:-10px;
+    margin-left:15px;
+    background:white;
+}
+

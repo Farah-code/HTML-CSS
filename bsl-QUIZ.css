@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-Apr-2020, 14:42:34
+    Author     : farah
+*/
+
+
+fieldset
+{
+    width:100px;
+    margin-top:-10px;
+    margin-left:15px;
+}
+
+legend
+{
+    width:100px;
+    margin-top:-10px;
+    margin-left:15px;
+   
+}
+
+ h4
+{
+   width:100px;
+    margin-top:-10px;
+    margin-left:15px;
+    background:white;
+}
+
+ input
+{
+ margin-left: 0px;  
+}
+
+label
+{
+  margin-left: 1px;  
+}
+
+p
+{
+    margin-top:13px;
+    margin-left:15px; 
+}
+
+img
+{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+select 
+{
+  float: left; 
+  margin-bottom: 25px;
+  margin-left:10px;
+}
+
+select option 
+{
+  float: left; 
+  margin-bottom: 25px;
+  margin-left:10px; 
+}
+
+
+
+
