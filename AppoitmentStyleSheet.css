@@ -1,0 +1,24 @@
+/*!
+ * CSS3 stylesheet for appoitment 
+ * Copyright 2020 
+ * 
+ */
+/*! */
+
+table
+{
+    table-layout: fixed; 
+    
+}
+
+td
+{
+    width: 33%; 
+    
+}  
+
+.today
+{
+    background: pink; 
+}
+
